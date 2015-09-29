@@ -5,8 +5,7 @@ Takes a markdown string and extracts tables in json form contained in it.
 ## Example
 
 ``` js
-var x =
-            `
+var x =`
 | a    | b     | c     |
 | ---- | ----- | ----- |
 | 1    | 2     | 3     |
