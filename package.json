@@ -1,6 +1,6 @@
 {
   "name": "mdtable2json",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "No name given yet",
   "main": "index.js",
   "scripts": {
