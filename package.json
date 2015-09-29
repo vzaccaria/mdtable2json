@@ -1,0 +1,35 @@
+{
+  "name": "mdtable2json",
+  "version": "0.0.1",
+  "description": "No name given yet",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vzaccaria/mdtable2json.git"
+  },
+  "author": "Vittorio Zaccaria",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/vzaccaria/mdtable2json/issues"
+  },
+  "homepage": "https://github.com/vzaccaria/mdtable2json",
+  "dependencies": {
+    "bluebird": "^2.9.14",
+    "debug": "^2.1.3",
+    "markdox": "^0.1.8",
+    "mdast": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "diy-build": "^1.0.8",
+    "xyz": "*",
+    "verb": "*",
+    "verb-cli": "*",
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*"
+  }
+}
