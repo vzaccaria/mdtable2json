@@ -4,14 +4,14 @@ var parser = require('mdast')
 function tableToJson(t) {
     var headerCellArray = t.children[0].children
     var headers = _.map(headerCellArray, (it) => {
-            return it.children[0].value
+            return it.children.map(c => c.value).join('')
         })
         // Remove head
     t.children.splice(0, 1)
     var matrix = _.map(t.children, (row) => {
         return _.map(row.children, (cell) => {
             if (!_.isUndefined(cell.children[0])) {
-                return cell.children[0].value
+                return cell.children.map(c => c.value).join('')
             } else {
                 return ""
             }
